@@ -1,0 +1,14 @@
+.env.local
+.env
+.env.local
+web/.env.local
+
+.env
+.env.local
+web/.env.local
+
+# env files
+.env
+.env.local
+web/.env
+web/.env.local
