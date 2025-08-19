@@ -12,3 +12,9 @@ web/.env.local
 .env.local
 web/.env
 web/.env.local
+node_modules/
+.next/
+.env*
+.DS_Store
+dist/
+build/
