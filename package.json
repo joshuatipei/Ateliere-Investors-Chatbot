@@ -1,7 +1,19 @@
 {
   "name": "ateliere-investors-chatbot",
   "version": "1.0.0",
-
+  "description": "Ateliere Creative Technologies Investor RAG Chatbot",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
+    "start": "cd web && npm run start",
+    "lint": "cd web && npm run lint",
+    "test:search": "cd web && npm run test:search",
+    "install:all": "npm install && cd web && npm install"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.54.0",
     "dotenv": "^17.2.1",

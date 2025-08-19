@@ -18,3 +18,5 @@ node_modules/
 .DS_Store
 dist/
 build/
+web/.env.local
+web/env.local

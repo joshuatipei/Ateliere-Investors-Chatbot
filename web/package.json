@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:search": "tsx scripts/test-search.ts"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "next": "15.4.6",
+    "@supabase/supabase-js": "^2.39.0",
+    "openai": "^4.20.0"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -20,6 +23,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "tsx": "^4.7.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
   }
 }
